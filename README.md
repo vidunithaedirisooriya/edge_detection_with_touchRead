@@ -2,7 +2,7 @@
 
  concept: when touched, the touchRead reads like this,
  touchRead value
- `
+ ```
      ^
  100 | _________ A             __________E
      |          \             /D
@@ -10,7 +10,7 @@
      |____________\_________/_______________threshhold
      |           B \_______/C
   0  |_______________________________________>time
-  `
+  ```
 
   AB=finger has just come into contact
   BC=finger is in contact
