@@ -4,11 +4,12 @@
 touchToggle::touchToggle(int touchPin, int touchThreshold){
     _touchPin = touchPin;
     _touchThreshold = touchThreshold;
-    timeAtBForGetState;
-    timeAtBForTapped;
-    touchAtBForGetState;
-    touchAtBForTapped;
+    timeAtBForGetState=0;
+    timeAtBForTapped=0;
+    touchAtBForGetState=100;
+    touchAtBForTapped=100;
     state=LOW;
+    tap=LOW;
 }
 
 void touchToggle::begin(){
