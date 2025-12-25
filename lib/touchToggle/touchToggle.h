@@ -13,9 +13,12 @@ class touchToggle
   private:
     int _touchPin;
     int _touchThreshold;
-    uint64_t timeAtB;
-    int touchAtB; 
+    uint64_t timeAtBForTapped;
+    uint64_t timeAtBForGetState;
+    int touchAtBForTapped; 
+    int touchAtBForGetState;
     bool state;
+    bool tap;
 };
 
 #endif

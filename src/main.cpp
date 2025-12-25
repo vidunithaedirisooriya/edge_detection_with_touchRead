@@ -17,5 +17,5 @@ void loop() {
   delay(50);
   if(toggleOn13.tapped()) Serial.println("tap!");
   //uncomment the following line to get the touch value 
-  // Serial.println(touchRead(touchPin));
+  // Serial.println(touchRead(13));
 }
